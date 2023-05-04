@@ -72,7 +72,7 @@ stage("Quality Gate") {
                 repository: 'vprofile-repo',
                 credentialsId: 'nexuslogin',
                 artifacts: [
-                [artifactId: 'vproapp',
+                [artifactId: 'vproapp1',
                 classifier: '',
                 file: 'target/vprofile-v2.war',
                 type: 'war'] 
